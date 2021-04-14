@@ -1,0 +1,69 @@
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto&display=swap" rel="stylesheet"> 
+primary Font: font-family: 'New Tegomin', serif;
+secondary Font: font-family: 'Roboto', sans-serif;
+colors: rdeca rgb(255, 89, 94)
+        zelena rgb(138, 201, 38)
+*/
+h1{
+    font-family: 'New Tegomin', serif;
+}
+
+h2{
+    font-family: 'New Tegomin', serif;
+}
+table{
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+fieldset{
+    border:none;
+}
+
+legend{
+    padding-bottom: 10px;
+    font-family: 'New Tegomin', serif;
+    font-size: 18px;
+}
+
+button{
+    font-size: 35px; 
+    background-color: rgb(255, 89, 94);
+}
+
+button:hover {
+    font-size: 2.5em;
+    transition: all 500ms ease; 
+}
+
+#food{
+   
+    display: block;
+    background-color: rgba(255, 89, 94, 0.5);
+    margin: 5px;
+    padding: 5px
+}
+#toppings{
+    border: 5px solid rgb(138, 201, 38);
+    border-radius: 5%;
+    display: block;
+    background-color: rgba(138, 201, 38, 0.5);
+    margin: 5px;
+    padding:5px;
+    text-align: left;
+}
+#order{
+    border: 5px solid rgb(255, 202, 58);
+    border-radius: 5%;
+    display:block;
+    background-color: rgba(255, 202, 58, 0.5);
+    margin: 5px;
+    padding:5px;
+}
+
+#details{
+    border-right: 5px solid rgb(255, 202, 58);
+}
+#info{
+    border-right: 5px solid rgb(255, 202, 58);
+}
